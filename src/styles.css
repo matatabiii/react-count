@@ -31,3 +31,12 @@ button:nth-of-type(2) {
 button:nth-of-type(3) {
   background: rgb(46, 146, 204);
 }
+
+#text {
+  font-weight: 700;
+  padding: 1em 2em;
+  border-radius: 8px;
+  border: 2px solid;
+  width: max-content;
+  margin: 1em auto;
+}

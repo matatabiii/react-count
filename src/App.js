@@ -22,6 +22,9 @@ export default function App() {
       <button onClick={countDown}>カウント -1</button>
       <button onClick={countReset}>リセット</button>
       <button onClick={countUp}>カウント +1</button>
+      <div id="text" style={{ color: count === 10 && "red" }}>
+        {count === 10 ? "10だよ" : "10以外だよ"}
+      </div>
     </div>
   );
 }
