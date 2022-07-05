@@ -19,9 +19,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>{count}</h1>
-      <button onClick={countUp}>countUp</button>
-      <button onClick={countDown}>countDown</button>
-      <button onClick={countReset}>countReset</button>
+      <button onClick={countDown}>カウント -1</button>
+      <button onClick={countReset}>リセット</button>
+      <button onClick={countUp}>カウント +1</button>
     </div>
   );
 }
